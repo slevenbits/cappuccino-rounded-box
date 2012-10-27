@@ -1,0 +1,30 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                changeBackground = id; 
+                changeBackgroundColor = id; 
+                changeBorderColor = id; 
+                changeGradientEndColor = id; 
+                changeGradientStartColor = id; 
+                changeSelected = id; 
+                changeTitle = id; 
+                changeTitleColor = id; 
+                changeTitlebar = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                backgroundColorWell = NSColorWell; 
+                borderColorWell = NSColorWell; 
+                box = RoundedBox; 
+                gradientEndColorWell = NSColorWell; 
+                gradientStartColorWell = NSColorWell; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = RoundedBox; LANGUAGE = ObjC; SUPERCLASS = NSBox; }
+    ); 
+    IBVersion = 1; 
+}
